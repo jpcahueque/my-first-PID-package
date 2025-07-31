@@ -10,7 +10,7 @@ PID_Package(
     YEAR               2025
     LICENSE            CeCILL
     DESCRIPTION        TODO: input a short description of package my-first-PID-package utility here
-    VERSION            0.0.0
+    VERSION            0.1.0
 )
 
 # All the functions commented below are optional and documented here https://pid.lirmm.net/pid-framework/assets/apidoc/html/pages/Package_API.html
