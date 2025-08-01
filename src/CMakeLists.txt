@@ -19,3 +19,8 @@
 #   my-script
 #   DESCRIPTION ...
 # )
+PID_Component(STATIC_LIB NAME hello-static DIRECTORY hello)
+PID_Component(SHARED_LIB NAME hello-shared DIRECTORY hello
+              INTERNAL DEFINITIONS DO_NOT_PRINT_HELLO)
+PID_Component(hello-app APPLICATION DIRECTORY hello)
+PID_Component_Dependency(COMPONENT hello-app DEPEND hello-static)

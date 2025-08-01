@@ -6,7 +6,9 @@ include(Package_Definition NO_POLICY_SCOPE)
 project(my-first-PID-package)
 
 PID_Package(
-    AUTHOR             Juan
+    AUTHOR             Juan Pablo CAHUEQUE
+    INSTITUTION		LS2N
+    MAIL		juan-pablo.cahueque@ls2n.fr
     ADDRESS https://github.com/jpcahueque/my-first-PID-package.git
 
     YEAR               2025

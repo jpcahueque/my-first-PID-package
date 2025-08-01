@@ -1,0 +1,1 @@
+set(my-first-PID-package_PID_VERSION 6 CACHE INTERNAL "")
